@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-image: url(fondo.jfif);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.asimovian-regular {
+  font-family: "Asimovian", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.cuadro{
+    background-color:aliceblue;
+    display: flex;
+    flex-direction: column;
+    width: 410px;
+    height: 580px;
+    box-shadow: 5px 5px 15px darkgray;
+    transition: height 0.5s ease;
+    overflow: hidden ;
+}
+header{
+    text-align:center ;
+}
+.titulo{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: aliceblue;
+    border-bottom: 1px solid darkgray;
+}
+.contenido{
+    flex: 1;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 5px;
+}
+.educ{
+    height: 230px;
+    padding-bottom: 20px;
+}
+h3{
+    margin: 3px 0px;
+    height: 20px;
+}
+.link{
+    height: 60px;
+}
+.idiomas{
+    height: 70px;
+    padding-bottom: 20px;
+}
+.p-0,.p-6,.p-7{
+    margin: 3px 0px;
+}
+.p-1{
+    margin: 3px 0px;
+    height: 20px;
+}
+.p-2,.p-5{
+    margin: 3px 0px;
+    height: 20px;
+}
+.p-3{
+    margin: 20px 0px 3px 0px;
+    height: 40px;
+}
+.p-4{
+    margin: 20px 0px 3px 0px;
+    height: 60px;
+}
+footer{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    height: 50px;
+}
+.cuadro.cerrado {
+    height: 50px;
+}
+.cuadro.cerrado .contenido,
+.cuadro.cerrado footer {
+    display: none;
+}

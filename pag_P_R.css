@@ -1,0 +1,46 @@
+@media screen and (max-width: 600px) {
+    .cuadro{
+        width: 70%;
+        height: 30%;
+        transition: height 0.5s ease;
+        overflow: hidden ;
+    }
+    .titulo{
+        height: auto;
+    }
+    .contenido{
+        flex: 1;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding-top: 2px;
+        font-size: 14px;
+    }
+    .link{
+        width: 210px;
+        height: 60px;
+    }
+    .idiomas{
+        margin-bottom: 0;
+        padding-bottom: 0;
+        height: 50px;
+    }
+    .p-3,.p-4{
+        line-height: 1.7;
+    }
+    .educ{
+        height: 220px;
+        width: 250px;
+        margin-top: 0;
+        box-sizing: border-box;
+        font-size: 14px;
+        line-height: 1.7;
+        text-align: left;
+        overflow-wrap: break-word;
+    }
+    .skills{
+        margin-top: 0;
+        height: 30px;
+    }
+}
